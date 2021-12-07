@@ -6,7 +6,7 @@ from lin_reg import lin_reg
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 if __name__ == '__main__':
-    data = pd.read_csv('C:\\Users\\aljad\\PycharmProjects\\linreg\\venv\\car_data.csv')
+    data = pd.read_csv('car_data.csv')
 
     data = clean_data(data)
 
